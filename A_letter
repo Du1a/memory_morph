@@ -1,0 +1,12 @@
+entry
+start
+la a7, start
+org 16
+sw zero, 0[a7]
+sw zero, 4[a7]
+org 32
+addi a6, a6, 1024
+addi a5, a5, 1024
+org 48
+sh zero, 50[a7]
+sh zero, 52[a7]
